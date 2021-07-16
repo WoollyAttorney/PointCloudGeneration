@@ -13,13 +13,17 @@ After downloading the dataset, a few more steps needs to be done in order for th
 
 ### Build
 In the Project folder, create a build directory using 
-```mkdir build```\n
+```mkdir build```
+
 compile using 
-```cmake ../src```\n
+```cmake ../src```
+
 then generate binary using 
-```make -j4```\n
+```make -j4```
+
 run the binary using 
-```./generatPointCloud```\n
+```./generatPointCloud```
+
 You will get a .ply file. To view the file use meshlab.
 
 
